@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khám Phá Cần Thơ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header-container">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/FPT_Polytechnic.png" alt="Logo">
+    </div>
+
+    <nav>
+      <a href="#home">Trang Chủ</a>
+      <a href="#explore">Khám Phá</a>
+      <a href="#food">Ẩm Thực</a>
+      <a href="#events">Sự Kiện</a>
+      <a href="Components/NhutDuy/Camnang/camnang.html">Hướng Dẫn</a>
+      <a href="Components/NhutDuy/contact/contact.html">Liên Hệ</a>
+    </nav>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <!-- Slide 1 -->
+    <div class="slide active" style="background-image: url(images/cantho-bridge.jpg);">
+      <div class="slide-content">
+        <h2>Đồng Bằng Sông Cửu Long</h2>
+        <p>Trải nghiệm cuộc sống sông nước sôi động vào buổi sáng sớm.</p>
+        <a href="#explore" class="btn">Khám Phá Tour</a>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide" style="background-image: url('images/ninhkieu.jpg');">
+      <div class="slide-content">
+        <h2>Bến Ninh Kiều</h2>
+        <p>Trái tim của Cần Thơ, nơi sông Hậu gặp thành phố.</p>
+        <a href="Components/NhutDuy/travel/Pedestrianbridge.html" class="btn">Tìm Hiểu Thêm</a>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide" style="background-image: url('images/duanuoc.jpg');">
+      <div class="slide-content">
+        <h2>Vùng Quê Sông Nước</h2>
+        <p>Chèo xuồng ba lá qua những vườn cây ăn trái xanh tươi và làng quê bình yên miền sông nước.</p>
+        <a href="#guide" class="btn">Lên Kế Hoạch</a>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide" style="background-image: url('images/banhxeo.webp');">
+      <div class="slide-content">
+        <h2>Bánh Xèo Miền Tây</h2>
+        <p>Bánh xèo giòn rụm với nhân tôm, thịt heo và giá đỗ - phong cách miền Tây!</p>
+        <a href="#guide" class="btn">Lên Kế Hoạch</a>
+      </div>
+    </div>
+
+    <!-- Slide Controls -->
+    <div class="controls">
+      <div class="dot active" data-slide="0"></div>
+      <div class="dot" data-slide="1"></div>
+      <div class="dot" data-slide="2"></div>
+      <div class="dot" data-slide="3"></div>
+    </div>
+  </section>
+
+  <!-- Intro section -->
+  <section class="intro-section">
+    <h2>Chào Mừng Đến Với Cần Thơ</h2>
+    <p>
+      Nằm ở trung tâm Đồng Bằng Sông Cửu Long, Cần Thơ là thành phố sông nước lớn nhất Việt Nam,
+      nơi chợ nổi, cánh đồng lúa xanh tươi và văn hóa sôi động cùng hòa quyện.
+      Khám phá "Thủ phủ miền Tây" của Việt Nam, thưởng thức ẩm thực huyền thoại,
+      và du ngoạn trên sông Hậu để có một chuyến phiêu lưu khó quên.
+    </p>
+    <div class="cta-buttons">
+      <a href="#tours" class="cta-btn primary-btn">Đặt Tour</a>
+      <a href="#guide" class="cta-btn secondary-btn">Hướng Dẫn Du Lịch</a>
+    </div>
+  </section>
+
+  <!-- Attractions section -->
+  <section class="attractions-section">
+    <div class="section-header">
+      <h2>Điểm Đến Nổi Bật</h2>
+      <p>Khám phá văn hóa sôi động và cảnh quan tuyệt đẹp của Cần Thơ qua những điểm đến biểu tượng này</p>
+    </div>
+
+    <div class="container">
+      <div class="card">
+      <img src="images/chonoi9.jpg" alt="Chợ Nổi Cái Răng">
+      <div class="card-content">
+        <h3>Chợ Nổi Cái Răng</h3>
+        <p>Trải nghiệm không khí sôi động của một trong những chợ nổi lớn nhất Đồng Bằng Sông Cửu Long.</p>
+      </div>
+      <div class="learn-more"><a href="#">Tìm Hiểu Thêm</a></div>
+      </div>
+
+      <div class="card">
+      <img src="images/nhacobinhthuy.webp" alt="Nhà Cổ Bình Thủy">
+      <div class="card-content">
+        <h3>Nhà Cổ Bình Thủy</h3>
+        <p>Khám phá kiến trúc đẹp và lịch sử của ngôi nhà cổ thời thuộc địa được bảo tồn tốt.</p>
+      </div>
+      <div class="learn-more"><a href="#">Tìm Hiểu Thêm</a></div>
+      </div>
+
+      <div class="card">
+      <img src="images/benninhkieu.jpg" alt="Bến Ninh Kiều">
+      <div class="card-content">
+        <h3>Bến Ninh Kiều</h3>
+        <p>Tản bộ dọc bờ sông, đi thuyền và ngắm nhìn thành phố.</p>
+      </div>
+      <div class="learn-more"><a href="Components/NhutDuy/travel/Pedestrianbridge.html">Tìm Hiểu Thêm</a></div>
+      </div>
+
+      <div class="card">
+      <img src="images/chuaong.jpg" alt="Chùa Ông">
+      <div class="card-content">
+        <h3>Chùa Ông</h3>
+        <p>Thăm ngôi chùa Trung Hoa đầy màu sắc và trang trí công phu, một địa danh văn hóa quan trọng.</p>
+      </div>
+      <div class="learn-more"><a href="#">Tìm Hiểu Thêm</a></div>
+      </div>
+
+      <div class="card">
+      <img src="images/mykhanh.jpg" alt="Làng Du Lịch Mỹ Khánh">
+      <div class="card-content">
+        <h3>Làng Du Lịch Mỹ Khánh</h3>
+        <p>Hòa mình vào cuộc sống nông thôn với vườn cây ăn trái, các hoạt động truyền thống và ẩm thực địa phương.</p>
+      </div>
+      <div class="learn-more"><a href="#">Tìm Hiểu Thêm</a></div>
+      </div>
+
+      <div class="card">
+      <img src="images/thienvientruclam.jpg" alt="Thiền Viện Trúc Lâm Cần Thơ">
+      <div class="card-content">
+        <h3>Thiền Viện Trúc Lâm</h3>
+        <p>Khám phá vẻ đẹp thanh tịnh và không gian tâm linh của thiền viện Phật giáo nổi tiếng tại Cần Thơ.</p>
+      </div>
+      <div class="learn-more"><a href="#">Tìm Hiểu Thêm</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Food section -->
+  <section class="food-section">
+    <div class="section-header">
+      <h2>Hương Vị Cần Thơ</h2>
+      <p>Khám phá những món ăn biểu tượng làm nên ẩm thực miền Tây khó quên</p>
+    </div>
+
+    <div class="food-highlights">
+      <div class="food-card">
+        <img src="images/bunrieucua.jpg" alt="Bún Riêu Cua" class="food-img">
+        <div class="food-info">
+          <h3>Bún Riêu Cua</h3>
+          <p>Món bún cua chua cay với cà chua, riêu cua đồng và rau thơm - món ăn sáng đặc trưng của Cần Thơ.</p>
+          <span class="food-tag">Phải Thử</span>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <img src="images/calocnuongchui.jpg" alt="Cá Lóc Nướng Trui" class="food-img">
+        <div class="food-info">
+          <h3>Cá Lóc Nướng Trui</h3>
+          <p>Cá lóc nướng cuốn lá chuối, ăn kèm bánh tráng và rau sống.</p>
+          <span class="food-tag">Đặc Sản Địa Phương</span>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <img src="images/banhxeo.webp" alt="Bánh Xèo" class="food-img">
+        <div class="food-info">
+          <h3>Bánh Xèo Miền Tây</h3>
+          <p>Bánh xèo giòn rụm với nhân tôm, thịt heo và giá đỗ - phong cách miền Tây!</p>
+          <span class="food-tag">Món Ăn Đặc Trưng</span>
+        </div>
+      </div>
+    </div>
+
+    <!--  More Culinary Delights -->
+    <h3 style="text-align: center; margin: 2rem 0 1rem">More Culinary Delights</h3>
+    <div class="gallery">
+      <!-- Gallery Item 1 -->
+      <div class="gallery-item">
+        <img src="images/hutieunamvang.webp" alt="Hủ tiếu Nam Vang" class="gallery-img">
+        <div class="gallery-caption">Hủ Tiếu Nam Vang</div>
+      </div>
+
+      <!-- Gallery Item 2 -->
+      <div class="gallery-item">
+        <img src="images/chebuoi.jpg" alt="Chè bưởi" class="gallery-img">
+        <div class="gallery-caption">Chè Bưởi (Pomelo Dessert)</div>
+      </div>
+
+      <!-- Gallery Item 3 -->
+      <div class="gallery-item">
+        <img src="images/banhtetlacam.png" alt="Bánh tét lá cẩm" class="gallery-img">
+        <div class="gallery-caption">Bánh Tét Lá Cẩm</div>
+      </div>
+
+      <!-- Gallery Item 4 -->
+      <div class="gallery-item">
+        <img src="images/laumam.jpg" alt="Lẩu mắm" class="gallery-img">
+        <div class="gallery-caption">Lẩu Mắm (Fermented Fish Hotpot)</div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial-newsletter -->
+  <section class="testimonial-newsletter">
+    <!-- Testimonials Section -->
+    <div class="testimonials">
+      <h2 class="section-title">Câu Chuyện Du Lịch</h2>
+
+      <div class="testimonial-card active">
+        <p class="testimonial-text">
+          Chuyến tham quan chợ nổi vào lúc bình minh thật kỳ diệu! Hướng dẫn viên Thảo đã dẫn chúng tôi đến
+          những địa điểm ẩn mà hầu hết du khách bỏ lỡ. Cuộc sống sông nước buổi sáng ở Cần Thơ là điều mà ai
+          cũng nên trải nghiệm.
+        </p>
+        <div class="testimonial-author">
+          <img src="images/hoangnhut.jpg" alt="Hoàng Nhựt" class="author-avatar">
+          <div class="author-info">
+            <h4>Hoàng Nhựt</h4>
+            <p>Đến từ Thái Lan</p>
+            <div class="rating">&#9733&#9733&#9733&#9733&#9733</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          Ẩm thực ở Cần Thơ đã thay đổi cuộc đời tôi! Tôi đã tham gia một tour ẩm thực bằng xe máy và ăn món
+          bún riêu cua ngon nhất mà tôi từng thử. Người dân địa phương rất thân thiện - cảm giác như ở nhà.
+        </p>
+        <div class="testimonial-author">
+          <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Nhựt Duy" class="author-avatar">
+          <div class="author-info">
+            <h4>Nhựt Duy</h4>
+            <p>Đến từ Singapore</p>
+            <div class="rating">&#9733&#9733&#9733&#9733&#9733</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          Sự kết hợp hoàn hảo giữa văn hóa và thư giãn. Chúng tôi đã ở trong một homestay ven sông, học cách
+          làm kẹo dừa và đi thuyền ngắm hoàng hôn mỗi tối. Đã lên kế hoạch quay lại!
+        </p>
+        <div class="testimonial-author">
+          <img src="images/tanqui.jpg" alt="Tấn Qui" class="author-avatar">
+          <div class="author-info">
+            <h4>Tấn Qui</h4>
+            <p>Đến từ Pháp</p>
+            <div class="rating">&#9733&#9733&#9733&#9733&#9734</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <div class="newsletter">
+      <h2 class="section-title">Khám Phá Thêm</h2>
+      <p>Nhận bản tin hàng tháng của chúng tôi với các mẹo du lịch độc quyền, sự kiện theo mùa và ưu đãi đặc
+        biệt cho Cần Thơ và Đồng Bằng Sông Cửu Long.</p>
+
+      <form class="newsletter-form">
+        <div class="form-group">
+          <label for="name">Tên Của Bạn</label>
+          <input type="text" id="name" placeholder="Nguyễn Văn A" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Địa Chỉ Email</label>
+          <input type="email" id="email" placeholder="email@cuaban.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="interest">Tôi quan tâm nhất đến:</label>
+          <select id="interest">
+            <option value="culture">Văn Hóa & Di Sản</option>
+            <option value="food">Trải Nghiệm Ẩm Thực</option>
+            <option value="nature">Thiên Nhiên & Du Lịch Sinh Thái</option>
+            <option value="all">Tất Cả!</option>
+          </select>
+        </div>
+
+        <button type="submit" class="subscribe-btn">Đăng Ký Ngay</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Về PolyTravel</h3>
+        <p>Cung cấp thông tin du lịch Cần Thơ chính xác và hữu ích nhất cho giới trẻ.</p>
+        <div class="social-links">
+          <a href="#"><img src="images/youtube_logo_icon_168737.png" alt="YouTube"></a>
+          <a href="#"><img src="images/tiktok_logo_icon_144802.png" alt="TikTok"></a>
+          <a href="#"><img src="images/twitter_x_new_logo_x_icon_256077.png" alt="Twitter"></a>
+          <a href="#"><img src="images/facebook_logo_icon_147291.png" alt="Facebook"></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Liên Kết Nhanh</h3>
+        <p><a href="#" style="color: white; text-decoration: none;">Địa Điểm Nổi Bật</a></p>
+        <p><a href="#" style="color: white; text-decoration: none;">Tour Du Lịch</a></p>
+        <p><a href="#" style="color: white; text-decoration: none;">Ẩm Thực Đường Phố</a></p>
+        <p><a href="#experience" style="color: white; text-decoration: none;">Kinh Nghiệm Du Lịch</a></p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Liên Hệ</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Đường 3/2, Ninh Kiều, Cần Thơ</p>
+        <p><i class="fas fa-phone"></i> 0123 456 789</p>
+        <p><i class="fas fa-envelope"></i> info@wanteda.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; FPT Polytechnic Cần Thơ. Tất cả quyền được bảo lưu.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
