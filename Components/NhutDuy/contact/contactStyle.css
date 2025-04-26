@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container chính */
+.contact-container {
+    display: flex;
+    background-image: linear-gradient(to right, #d291f59a,#8356b2);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Phần thông tin liên hệ */
+.contact-info {
+    width: 40%;
+    padding-right: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.section-title {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.section-title span {
+    color: rgb(255, 254, 254);
+    font-size: 25px;
+    font-style: italic;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-item i {
+    font-size: 24px;
+    color: red;
+    margin-right: 15px;
+}
+
+.info-item h4 {
+    font-size: 16px;
+    color: #333;
+}
+
+.info-item p a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Phần form */
+.contact-form {
+    width: 60%;
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-image: linear-gradient(to right, #5f677e,#543f2f);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #40116f;
+}
